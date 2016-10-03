@@ -1,0 +1,33 @@
+{
+  "name": "yiidoc/yii2-extension",
+  "description": "Extension redactor for Yii2 Framework.",
+  "keywords": [
+    "yii2",
+    "extension",
+    "jquery",
+    "lazyload"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiidoc/yii2-lazyload/issues?state=open",
+    "wiki": "http://www.yiidoc.com/wiki/",
+    "source": "https://github.com/yiidoc/yii2-lazyload"
+  },
+  "authors": [
+    {
+      "name": "Nghia Nguyen",
+      "email": "zinzinday@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yiidoc\\lazyload\\": "/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "*",
+    "bower-asset/jquery-lazyload": "*"
+  }
+}
