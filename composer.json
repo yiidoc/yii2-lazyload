@@ -28,6 +28,6 @@
   "minimum-stability": "dev",
   "require": {
     "yiisoft/yii2": "*",
-    "bower-asset/jquery-lazyload": "*"
+    "bower-asset/jquery.lazyload": "*"
   }
 }
